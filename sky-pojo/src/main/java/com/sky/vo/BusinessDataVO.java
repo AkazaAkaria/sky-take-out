@@ -9,6 +9,7 @@ import java.io.Serializable;
 
 /**
  * 数据概览
+ * @author AkazaAkari
  */
 @Data
 @Builder
@@ -16,6 +17,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class BusinessDataVO implements Serializable {
 
+    private static final long serialVersionUID = 6498167000513602828L;
     private Double turnover;//营业额
 
     private Integer validOrderCount;//有效订单数

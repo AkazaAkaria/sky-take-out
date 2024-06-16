@@ -10,6 +10,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
 
 import java.util.Map;
 
@@ -21,7 +23,7 @@ import java.util.Map;
  * @className HttpClient
  * @description TODO
  */
-// @SpringBootTest
+ @SpringBootTest
 public class HttpClient {
     /**
      * @return
