@@ -1,7 +1,7 @@
 sky:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    host: 192.168.0.2
+    host: localhost
     port: 3306
     database: sky_take_out
     username: root
@@ -14,10 +14,10 @@ sky:
    bucket-name: sky-itcast
 #redis配置
   redis:
-    host: 192.168.0.2
+    host: localhost
     database: 0
     port: 6379
-    password: root
+#    password: root
 
   wechat:
     appid: wxffb3637a228223b8
